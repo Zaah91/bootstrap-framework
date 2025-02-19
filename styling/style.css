@@ -20,3 +20,17 @@ a{
 footer a{
     color: white;
 }
+
+
+#blob {
+    height: 34vmax;
+    aspect-ratio: 1;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    background: linear-gradient(to right, #5555, #7644);
+    border-radius: 50%;
+  }
+  #blur {
+    backdrop-filter: blur(12vmax);
+  }
