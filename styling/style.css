@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: eggshell;
+    overflow-y: scroll;
+}
+
+main{
+    margin-bottom: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer a{
+    color: white;
+}

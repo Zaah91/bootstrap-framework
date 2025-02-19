@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styling/style.css">
+</head>
+<body>
+<header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse justify-content-start" id="collapsibleNavbar">
+            <img src="assets/duck.webp" alt="duck" class="img-fluid rounded-circle object-fit-contain bg-light" style="width: 50px;">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+    
+<main>
+  <div class="container mt-5">
+    <h3>Latest work:</h3>
+    <div class="row mt-2 p-1 border rounded">
+      <div class="col-sm-4">
+        <img src="assets/lemonadeStand.PNG" alt="lemonadestand" class="img-fluid rounded">
+      </div>
+      <div class="col-sm-8">
+        <h4>Lemonade stand</h4>
+        <p>Small application for a lemonade stand made in class.</br></br>
+            Can +5 when selling lemonade, and -2 when buying lemons.</br>
+            Got usage of localStorage, so the value is stored in the browser.</br></br>
+            Run command: npm run dev</br></br>
+            Running on port 3000</br>
+            Port can be changed in vite.config.js</br></br>
+            Find it on github: <a href="https://github.com/Zaah91/lemonade-stand" target="_blank">https://github.com/Zaah91/lemonade-stand</a>
+        </p>
+      </div>
+    </div>
+    <div class="row mt-2 p-1 border rounded">
+      <div class="col-sm-4">
+        <img src="assets/snowman.png" alt="snowman" class="img-fluid rounded">
+      </div>
+      <div class="col-sm-8">
+        <h4>The snowman - 3D</h4>
+        <p>Part of the education, with focus on 3D in web applications.</p>
+      </div>
+    </div>
+    <div class="row mt-2 p-1 border rounded">
+      <div class="col-sm-4">
+        <img src="assets/Red-confidential.jpg" alt="confidential" class="img-fluid rounded">
+      </div>
+      <div class="col-sm-8">
+        <h4>Confidential mobile application</h4>
+        <p>
+        Project created during my internship at DMDC.</br>
+        It involved developing their patient portal as a cross-platform app for use on iOS, Android, and the web.</br>
+        I took on the role of lead developer for the project, despite having no prior deep experience and without the ability to receive assistance from colleagues.</br>
+        The project was built using Kotlin, Flutter, and Dart.</br>
+        All documentation and planning were also carried out by me.</br>
+        The profect has biometric security, checks and registers current language and compatible for multiple devices.</br>
+        At this time, the code is not publicly available.
+        </p>
+      </div>
+    </div>
+</div>
+</main>
+
+<footer class="footer fixed-bottom bg-dark text-white">
+  <div class="container-fluid">
+    <p>Github: <a href="https://github.com/Zaah91">https://github.com/Zaah91</a></p>
+  </div>  
+</footer>
+
+</body>
+</html>
